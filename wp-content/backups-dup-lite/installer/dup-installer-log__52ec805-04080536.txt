@@ -1,0 +1,787 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:01:35
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.8                                 |7.4.8
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-05-04 08:05:36
+WP VERSION__________: 5.6
+DUP VERSION_________: 1.4.0
+DB__________________: 10.4.13
+DB TABLES___________: 55
+DB ROWS_____________: 2,534
+DB FILE SIZE________: 7.23MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.8 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8
+DOC ROOT____________: "C:/xampp/htdocs/blognews"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/blognews/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/blognews/20210421_jornal_NET_[HASH]_20210504080536_archive.zip"
+
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-210601010135-60b586ef0a059-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:01:35 - RUNTIME: 0.0704 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:03:25
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.13 -- Build Server: 10.4.13
+FILE SIZE:	dup-database__[HASH].sql (3.71MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/blognews/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	486
+
+wp_actionscheduler_actions: (50)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (226)
+wp_arm_activity: (1)
+wp_arm_email_templates: (13)
+wp_arm_entries: (0)
+wp_arm_fail_attempts: (5)
+wp_arm_form_field: (90)
+wp_arm_forms: (24)
+wp_arm_lockdown: (1)
+wp_arm_login_history: (0)
+wp_arm_member_templates: (2)
+wp_arm_members: (3)
+wp_arm_membership_setup: (0)
+wp_arm_payment_log: (0)
+wp_arm_subscription_plans: (1)
+wp_arm_termmeta: (12)
+wp_commentmeta: (0)
+wp_comments: (3)
+wp_duplicator_packages: (0)
+wp_jackmail_campaigns: (1)
+wp_jackmail_campaigns_lists_contacts_1: (2)
+wp_jackmail_campaigns_urls: (0)
+wp_jackmail_lists: (1)
+wp_jackmail_lists_contacts_1: (0)
+wp_jackmail_scenarios: (1)
+wp_jackmail_scenarios_events: (0)
+wp_jackmail_scenarios_urls: (0)
+wp_jackmail_templates: (0)
+wp_jackmail_woocommerce_email_notification: (0)
+wp_links: (0)
+wp_login_log: (1)
+wp_micro_revisions: (16)
+wp_options: (530)
+wp_postmeta: (947)
+wp_posts: (476)
+wp_term_relationships: (16)
+wp_term_taxonomy: (8)
+wp_termmeta: (0)
+wp_terms: (8)
+wp_user_registration_sessions: (0)
+wp_usermeta: (139)
+wp_users: (7)
+wp_wpforms_tasks_meta: (4)
+wp_wplc_actions_queue: (19)
+wp_wplc_chat_msgs: (0)
+wp_wplc_chat_ratings: (0)
+wp_wplc_chat_sessions: (19)
+wp_wplc_custom_fields: (0)
+wp_wplc_departments: (0)
+wp_wplc_offline_messages: (0)
+wp_wplc_quick_responses: (0)
+wp_wplc_webhooks: (0)
+wp_wpmailsmtp_tasks_meta: (2)
+Removed '25' cache/transient rows
+
+INSERT DATA RUNTIME: 45.6449 sec.
+STEP-2 COMPLETE @ 01:04:11 - RUNTIME: 45.7254 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:04:35
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "BlogNews"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp2/htdocs/portal-noticias"
+path_new______________: "C:/xampp/htdocs/blognews"
+siteurl_______________: "http://localhost/blognews"
+url_old_______________: "http://localhost/portal-noticias"
+url_new_______________: "http://localhost/blognews"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   226][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_activity"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_email_templates"__________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_entries"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_arm_fail_attempts"____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_form_field"_______________________________[ROWS:    90][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_forms"____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_lockdown"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_login_history"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_arm_member_templates"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_members"__________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_membership_setup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_arm_payment_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_arm_subscription_plans"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_arm_termmeta"_________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jackmail_campaigns"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_jackmail_campaigns_lists_contacts_1"__________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_jackmail_campaigns_urls"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jackmail_lists"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_jackmail_lists_contacts_1"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jackmail_scenarios"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_jackmail_scenarios_events"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jackmail_scenarios_urls"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jackmail_templates"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_jackmail_woocommerce_email_notification"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_login_log"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_micro_revisions"______________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   530][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   947][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   476][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_user_registration_sessions"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   139][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_wplc_actions_queue"___________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_wplc_chat_msgs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wplc_chat_ratings"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wplc_chat_sessions"___________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+
+EVALUATE TABLE: "wp_wplc_custom_fields"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wplc_departments"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wplc_offline_messages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wplc_quick_responses"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wplc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp2/htdocs/portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  2:"C:\/xampp2\/htdocs\/portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  3:"C%3A%2Fxampp2%2Fhtdocs%2Fportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  4:"C:\xampp2\htdocs\portal-noticias" ================> "C:/xampp/htdocs/blognews"
+	SEARCH  5:"C:\\xampp2\\htdocs\\portal-noticias" =============> "C:\/xampp\/htdocs\/blognews"
+	SEARCH  6:"C%3A%5Cxampp2%5Chtdocs%5Cportal-noticias" ========> "C%3A%2Fxampp%2Fhtdocs%2Fblognews"
+	SEARCH  7:"//localhost/portal-noticias" =====================> "//localhost/blognews"
+	SEARCH  8:"\/\/localhost\/portal-noticias" ==================> "\/\/localhost\/blognews"
+	SEARCH  9:"%2F%2Flocalhost%2Fportal-noticias" ===============> "%2F%2Flocalhost%2Fblognews"
+	SEARCH 10:"https://localhost/blognews" ======================> "http://localhost/blognews"
+	SEARCH 11:"https:\/\/localhost\/blognews" ===================> "http:\/\/localhost\/blognews"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fblognews" ==============> "http%3A%2F%2Flocalhost%2Fblognews"
+--------------------------------------
+SCANNED:	Tables:55 	|	 Rows:2631 	|	 Cells:21424 
+UPDATED:	Tables:9 	|	 Rows:538 	|	 Cells:591 
+ERRORS:		0 
+RUNTIME:	3.511100 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:04:40 - RUNTIME: 4.5839 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

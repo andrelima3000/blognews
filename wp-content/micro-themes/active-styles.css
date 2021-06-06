@@ -1,0 +1,33 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> Site navigation **/
+#site-navigation {
+	background-color: rgb(0, 0, 0);
+}
+
+/** Geral >> Main navigation bar navigation section wrapper **/
+#main-navigation-bar > .navigation-section-wrapper {
+	
+}
+
+
+/*= Cabeçalho ================ */
+
+/** Cabeçalho >> Main navigation bar navigation section wrapper _2 **/
+#main-navigation-bar > .navigation-section-wrapper {
+	
+}
+
+/** Cabeçalho >> Masthead top header **/
+#masthead > .top-header {
+	background-color: rgb(239, 131, 84);
+}
+
+/** Cabeçalho >> Main navigation bar navigation section wrapper _3 **/
+#main-navigation-bar > .navigation-section-wrapper {
+	background-color: rgb(45, 49, 66);
+}
+
